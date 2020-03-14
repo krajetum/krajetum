@@ -4,7 +4,7 @@
       <button
         class="flex items-center px-3 py-2 border rounded text-orange-200 border-orange-400 hover:text-white hover:border-white"
         @click="isExpanded = !isExpanded"
-        name="menu"
+        aria-label="menu"
       >
         <font-awesome-icon icon="bars" />
       </button>
