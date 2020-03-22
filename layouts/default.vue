@@ -1,7 +1,10 @@
 <template>
   <div>
     <global-navbar></global-navbar>
-    <nuxt />
+    <div class="h-20"></div>
+    <main>
+      <nuxt />
+    </main>
   </div>
 </template>
 
